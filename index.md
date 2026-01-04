@@ -14,7 +14,7 @@ layout: default
 <ul>
   {% for tag in site.tags %}
     <li>
-      <a href="{{site.baseurl}}/tags.html#{{tag | slugize}}">#{{ tag[0] }} ({{ tag[1].size }})</a>
+      <a href="/tags.html#{{tag[0]}}">{{ tag[0] }} ({{ tag[1].size }})</a>
     </li>
   {% endfor %}
 </ul>
