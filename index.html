@@ -13,6 +13,8 @@ layout: default
 <h2>Tags</h2>
 <ul>
   {% for tag in site.tags %}
-    <li>{{ tag[0] }} ({{ tag[1].size }})</li>
+    <li>
+      <a href="{{site.baseurl}}/tags.html#{{tag | slugize}}">#{{ tag[0] }} ({{ tag[1].size }})</a>
+    </li>
   {% endfor %}
 </ul>
