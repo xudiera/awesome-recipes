@@ -2,7 +2,17 @@
 layout: default
 ---
 
-<h1>Recipes</h1>
+<h2>Pages</h2>
+<ul>
+  {% for page in site.pages %}
+    {% if page.title %}
+      <li>
+        <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+<h2>Recipes</h2>
 <ul>
   {% for post in site.posts %}
     <li>
@@ -17,15 +27,5 @@ layout: default
     <li>
       <a href="{{ '/tags.html' | relative_url }}#{{ tag[0] }}">{{ tag[0] }} ({{ tag[1].size }})</a>
     </li>
-  {% endfor %}
-</ul>
-<h2>Pages</h2>
-<ul>
-  {% for page in site.pages %}
-    {% if page.title %}
-      <li>
-        <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
-      </li>
-    {% endif %}
   {% endfor %}
 </ul>
