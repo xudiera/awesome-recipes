@@ -43,3 +43,7 @@ tags: Beef France Stew
 ## What do you serve with beef bourguignon?
 
 Definitely Mashed potatoes! You can also serve it with plain rice or noodles. There is so much flavour in this, you need a fairly plain side to go with it.
+
+## Source
+
+[https://cafedelites.com/beef-bourguignon/](https://cafedelites.com/beef-bourguignon/)
