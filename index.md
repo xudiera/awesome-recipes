@@ -12,7 +12,10 @@ layout: default
 </ul>
 <h2>Tags</h2>
 <ul>
-  {% for tag in site.tags %}
-    <li>{{ tag[0] }} ({{ tag[1].size }})</li>
+  {% assign tags_sorted = site.tags | sort %}
+  {% for tag in tags_sorted %}
+    <li>
+      <a href="{{ '/tags.html' | relative_url }}#{{ tag[0] }}">{{ tag[0] }} ({{ tag[1].size }})</a>
+    </li>
   {% endfor %}
 </ul>
