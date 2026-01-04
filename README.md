@@ -28,6 +28,9 @@ tags: Beef France Stew
 
 ## Instructions
 1. Step-by-step instructions here
+
+## Source
+source link here
 ```
 
 ### Notes on the template
