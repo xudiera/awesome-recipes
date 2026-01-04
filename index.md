@@ -2,6 +2,7 @@
 layout: default
 ---
 
+<h1>Recipes</h1>
 <ul>
   {% for post in site.posts %}
     <li>
@@ -9,7 +10,7 @@ layout: default
     </li>
   {% endfor %}
 </ul>
-
+<h2>Tags</h2>
 <ul>
   {% for tag in site.tags %}
     <li>{{ tag[0] }} ({{ tag[1].size }})</li>
