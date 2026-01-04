@@ -1,0 +1,4 @@
+theme: jekyll-theme-hacker
+title: Awesome Recipes
+description: A collection of awesome cooking recipes.
+baseurl: /awesome-recipes
