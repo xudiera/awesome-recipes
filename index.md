@@ -14,7 +14,7 @@ layout: default
 <ul>
   {% for tag in site.tags %}
     <li>
-      <a href="/tags.html#{{tag[0]}}">{{ tag[0] }} ({{ tag[1].size }})</a>
+      <a href="{{ /tags.html#{{tag[0]}} | relative_url }}">{{ tag[0] }} ({{ tag[1].size }})</a>
     </li>
   {% endfor %}
 </ul>

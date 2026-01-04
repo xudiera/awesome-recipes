@@ -2,10 +2,9 @@
 layout: default
 ---
 
-<div>
+<h1>
   Search through all recipes by tag!
-</div>
-</br>
+</h1>
 <div id="tags-list">
 {% for tag in site.tags %}
   {% assign tag_name = tag | first %}
