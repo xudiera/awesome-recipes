@@ -7,10 +7,10 @@ tags: Bread Sourdough Baking
 # Sourdough Bread
 
 ## Ingredients
-- 500g bread flour
+- 500g all-pourpose flour
 - 325g water
 - 100g sourdough starter
-- 10g salt
+- 8g salt
 
 ## Instructions
 1. In a large bowl, mix water and sourdough starter.
