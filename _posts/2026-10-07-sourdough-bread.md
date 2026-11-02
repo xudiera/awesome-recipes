@@ -28,5 +28,5 @@ tags: Bread Sourdough Baking
 13. Prepare parchment paper and place the boule or batard onto the parchment paper.
 14. Sprinkle a little flour on top and score.
 15. Place it in the preheated Dutch oven.
-16. Bake for 20 minutes at 500°F with the lid on.
+16. Bake for 20 minutes at 450°F with the lid on.
 17. Bake for 15-20 minutes at 425°F with the lid off.
